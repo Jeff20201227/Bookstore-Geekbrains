@@ -245,7 +245,15 @@ form textarea {
 }
 
 .footer {
-    font-size: 9px;
+    height: 120px;
+    background-color: #CEC4BA;
+}
+
+.footer p {
+    display: block;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 10px;
     font-weight: 400;
-    text-align: center;
 }
