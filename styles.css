@@ -20,7 +20,13 @@ body {
     margin-bottom: 10px;
 }
 
+.header {
+    display: block;
+    min-height: 200px;
+}
+
 .header .menu li a {
+    display: inline-block;
     text-align: center;
 }
 
@@ -41,9 +47,10 @@ a:active {
 }
 
 .menu li {
+    display: inline-block;
+    margin-left: 10vw;
     height: 30px;
     text-align: center;
-    padding-left: 0.5vh;
 }
 
 .menu li:first-child {
