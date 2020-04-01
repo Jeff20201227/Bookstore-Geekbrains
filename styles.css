@@ -34,7 +34,7 @@ ul li {
     min-height: 200px;
     margin-top: 5px;
     margin-bottom: 10px;
-    background-color: #ECE8E5;
+    background-image: url(img/header.webp);
     border: 2px solid black;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -44,6 +44,7 @@ ul li {
 
 .header .menu li a {
     display: inline-block;
+    color: gold;
     text-align: center;
 }
 
@@ -116,6 +117,7 @@ a:active {
 
 h1 {
     text-align: center;
+    color: gold;
 }
 
 h2 {
@@ -172,6 +174,7 @@ img:hover {
 
 .list li {
     color: darkorchid;
+    margin-left: 10px;
     font-weight: 600;
     line-height: 20px;
     font-family: cursive;
@@ -184,14 +187,14 @@ ul li {
 
 table {
     color: darkorchid;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border: 1px solid black;
     border-collapse: collapse;
     vertical-align: middle;
     text-align: center;
-    width: 95vw;
-    margin-left: 1.5%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -221,13 +224,16 @@ form {
 
 form input[type="text"],
 form input[type="number"],
-form textarea {
+form textarea,
+input[type="EMail"] {
     font-family: sans-serif;
     font-size: 14px;
     color: blue;
 }
 
 form input[type="EMail"]:focus {
+    font-family: sans-serif;
+    font-size: 14px;
     color: red;
     background-color: azure;
 }
