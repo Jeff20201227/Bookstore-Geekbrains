@@ -13,6 +13,7 @@ ul li {
 
 .container {
     display: inline-block;
+    position: relative;
     width: 74%;
     margin-left: 12%;
     border: 2px solid black;
@@ -21,7 +22,7 @@ ul li {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    margin-top: 5%;
+    margin-top: 10px;
     margin-bottom: 10px;
     clear: both;
 }
@@ -260,12 +261,41 @@ ul li {
     clear: both;
 }
 
+.buy {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-left: 50%;
+    margin-bottom: 5vh;
+}
+
+.buy:hover {
+    background: #6292c2;
+    text-align: center;
+    border: 2px solid #eee;
+    height: 28px;
+    width: 60px;
+    overflow: hidden;
+    display: block;
+}
+
+.buy:active {
+    background: #FFF989;
+    text-align: center;
+    color: #F600FF;
+    border: 2px solid #eee;
+    height: 28px;
+    width: 60px;
+    overflow: hidden;
+    display: block;
+}
+
 .footer {
     display: inline-block;
     width: 100%;
     height: 120px;
     background-color: #CEC4BA;
-    margin-top: 45vh;
+    margin-bottom: 0.1vh;
 }
 
 .footer p {
