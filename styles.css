@@ -1,313 +1,308 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 
 ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .container {
-    display: inline-block;
-    position: relative;
-    width: 74%;
-    margin-left: 12%;
-    border: 2px solid black;
-    padding: 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    clear: both;
+  display: inline-block;
+  position: relative;
+  width: 74%;
+  margin-left: 12%;
+  border: 2px solid black;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
 }
 
 .header {
-    display: block;
-    width: 75%;
-    margin: 0 auto;
-    min-height: 200px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    background-image: url(img/header.webp);
-    border: 2px solid black;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.header .menu li a {
-    display: inline-block;
-    color: gold;
-    text-align: center;
-}
-
-.menu {
-    width: 70vw;
-    min-height: 150px;
-    margin: 0 auto;
-}
-
-a {
-    color: blueviolet;
-}
-
-a:hover {
-    color: chocolate;
-}
-
-a:active {
-    color: black;
-}
-
-.menu {
-    list-style-type: none;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  min-height: 200px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-image: url(img/header.webp);
+  border: 2px solid black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .header .menu li {
-    display: inline-block;
-    min-width: 70px;
-    position: relative;
-    margin-right: 5px;
-    margin-top: 5%;
-    margin-left: 4px;
-    height: 30px;
-    padding: 2px;
+  display: inline-block;
+  min-width: 70px;
+  position: relative;
+  margin-right: 5px;
+  margin-top: 5%;
+  margin-left: 4px;
+  height: 30px;
+  padding: 2px;
 }
 
-#logo {
-    float: left;
-    margin-left: 5%;
-    outline: 1px solid gold;
+.header .menu li a {
+  display: inline-block;
+  color: gold;
+  text-align: center;
 }
 
 .header .menu h1 {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.menu {
+  list-style-type: none;
+  list-style-type-width: 70vw;
+  list-style-type-min-height: 150px;
+  list-style-type-margin: 0 auto;
 }
 
 .menu li a {
-    display: inline-block;
-    width: 100%;
-    height: 35px;
-    color: cornflowerblue;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    text-decoration: none;
-    clear: both;
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+  color: cornflowerblue;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+  clear: both;
 }
 
 .menu li::first-letter {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .menu li a:hover {
-    color: crimson;
+  color: crimson;
 }
 
 .menu li a:active {
-    color: gold;
+  color: gold;
+}
+
+a {
+  color: blueviolet;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+a:active {
+  color: black;
+}
+
+#logo {
+  float: left;
+  margin-left: 5%;
+  outline: 1px solid gold;
 }
 
 h1 {
-    text-align: center;
-    color: gold;
+  text-align: center;
+  color: gold;
 }
 
 h2 {
-    color: blueviolet;
-    text-align: center;
+  color: blueviolet;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
 }
 
 img {
-    outline: 4px solid darkblue;
-    margin: 2px;
-    padding: 1px;
+  outline: 4px solid darkblue;
+  margin: 2px;
+  padding: 1px;
 }
 
 img:hover {
-    outline: none;
-    margin: 2px;
-    padding: 1px;
+  outline: none;
+  margin: 2px;
+  padding: 1px;
 }
 
 .desc {
-    color: #707070;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
 }
 
 .catalog p:first-letter {
-    font-size: 25px;
-    color: blueviolet;
-    font-family: verdana, cursive;
+  font-size: 25px;
+  color: blueviolet;
+  font-family: verdana, cursive;
 }
 
 .full_desc,
 .main {
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 24px;
-    text-align: left;
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+  text-align: left;
 }
 
 .main {
-    text-align: justify;
+  text-align: justify;
 }
 
 .list li {
-    color: darkorchid;
-    margin-left: 10px;
-    font-weight: 600;
-    line-height: 20px;
-    font-family: cursive;
-    list-style-image: url(img/znak2.svg)
+  color: darkorchid;
+  margin-left: 10px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: cursive;
+  list-style-image: url(img/znak2.svg);
 }
 
 ul li {
-    text-align: left;
+  text-align: left;
 }
 
 table {
-    color: darkorchid;
-    border: 1px solid black;
-    border-collapse: collapse;
-    vertical-align: middle;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: 300;
+  color: darkorchid;
+  border: 1px solid black;
+  border-collapse: collapse;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 td {
-    border: 1px solid black;
-    min-height: 10px;
-    max-height: 30px;
-    min-width: 20px;
-    max-width: 40px;
+  border: 1px solid black;
+  min-height: 10px;
+  max-height: 30px;
+  min-width: 20px;
+  max-width: 40px;
 }
 
 .hei {
-    height: 40px;
+  height: 40px;
 }
 
 .forms input[type="text"]::first-letter {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 form {
-    padding-left: 1%;
-    width: 30%;
-    height: auto;
+  padding-left: 1%;
+  width: 30%;
+  height: auto;
 }
 
 form input[type="text"],
 form input[type="number"],
 form textarea,
 input[type="EMail"] {
-    font-family: sans-serif;
-    font-size: 14px;
-    color: blue;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: blue;
 }
 
 form input[type="EMail"]:focus {
-    font-family: sans-serif;
-    font-size: 14px;
-    color: red;
-    background-color: azure;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: red;
+  background-color: azure;
 }
 
-
 .forms input {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 input[type="submit"] {
-    padding: 5px;
-    margin-right: 10px;
+  padding: 5px;
+  margin-right: 10px;
 }
 
 input[type="reset"] {
-    padding: 5px;
+  padding: 5px;
 }
 
 form textarea {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .Katalog img {
-    float: left;
-    margin: 10px;
+  float: left;
+  margin: 10px;
 }
 
-
-
 ul li {
-    clear: both;
+  clear: both;
 }
 
 .buy {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    margin-left: 50%;
-    margin-bottom: 5vh;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  margin-left: 50%;
+  margin-bottom: 5vh;
 }
 
 .buy:hover {
-    background: #6292c2;
-    text-align: center;
-    border: 2px solid #eee;
-    height: 28px;
-    width: 60px;
-    overflow: hidden;
-    display: block;
+  background: #6292c2;
+  text-align: center;
+  border: 2px solid #eee;
+  height: 28px;
+  width: 60px;
+  overflow: hidden;
+  display: block;
 }
 
 .buy:active {
-    background: #FFF989;
-    text-align: center;
-    color: #F600FF;
-    border: 2px solid #eee;
-    height: 28px;
-    width: 60px;
-    overflow: hidden;
-    display: block;
+  background: #FFF989;
+  text-align: center;
+  color: #F600FF;
+  border: 2px solid #eee;
+  height: 28px;
+  width: 60px;
+  overflow: hidden;
+  display: block;
 }
 
 .footer {
-    display: inline-block;
-    width: 100%;
-    height: 120px;
-    background-color: #CEC4BA;
-    margin-bottom: 0.1vh;
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+  background-color: #CEC4BA;
+  margin-bottom: 0.1vh;
 }
 
 .footer p {
-    text-align: right;
-    margin-right: 5%;
-    padding-top: 40px;
-    font-size: 10px;
-    font-weight: 400;
+  text-align: right;
+  margin-right: 5%;
+  padding-top: 40px;
+  font-size: 10px;
+  font-weight: 400;
 }
+/*# sourceMappingURL=styles.css.map */
