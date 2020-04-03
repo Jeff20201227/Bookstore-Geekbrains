@@ -123,6 +123,7 @@ h2 {
 }
 
 h3 {
+  clear: both;
   text-align: center;
   color: black;
   font-size: 18px;
@@ -143,6 +144,9 @@ img:hover {
 }
 
 .desc {
+  float: right;
+  margin-right: 45%;
+  margin-top: 10%;
   color: #707070;
   font-size: 14px;
   font-style: italic;
@@ -180,6 +184,7 @@ img:hover {
 
 ul li {
   text-align: left;
+  clear: both;
 }
 
 table {
@@ -252,9 +257,11 @@ form textarea {
   text-transform: capitalize;
 }
 
-.Katalog img {
-  float: left;
+.Katalog {
+  display: flex;
   margin: 10px;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 ul li {
@@ -262,32 +269,18 @@ ul li {
 }
 
 .buy {
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  margin-left: 50%;
-  margin-bottom: 5vh;
+  margin: 0 auto;
 }
 
 .buy:hover {
   background: #6292c2;
   text-align: center;
-  border: 2px solid #eee;
-  height: 28px;
-  width: 60px;
-  overflow: hidden;
-  display: block;
 }
 
 .buy:active {
   background: #FFF989;
   text-align: center;
   color: #F600FF;
-  border: 2px solid #eee;
-  height: 28px;
-  width: 60px;
-  overflow: hidden;
-  display: block;
 }
 
 .footer {
